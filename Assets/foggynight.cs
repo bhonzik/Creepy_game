@@ -9,8 +9,8 @@ public class nighttime : MonoBehaviour
     void Start()
     {
         RenderSettings.skybox = nightskybox;
-        RenderSettings.fogColor = new Color32(13, 13, 23, 225);
-        RenderSettings.fogDensity = 0.01f;
+        RenderSettings.fogColor = new Color32(22, 23, 34, 225);
+        RenderSettings.fogDensity = 0.03f;
     }
 
     // Update is called once per frame

@@ -5,9 +5,11 @@ public class rainynight : MonoBehaviour
 {
     // Start is called before the first frame update
     public Material rainyskybox;
+    public ParticleSystem snow;
 
     void Start()
     {
+        snow.Play();
         RenderSettings.skybox = rainyskybox;
         RenderSettings.fogColor = new Color32(150, 150, 150, 255);
         RenderSettings.fogDensity = 0.005f;
