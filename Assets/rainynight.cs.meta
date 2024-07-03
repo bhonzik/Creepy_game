@@ -3,7 +3,9 @@ guid: 86899206925b3694fac876d0b806007a
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - rainyskybox: {fileID: 2100000, guid: 5489b58387d36b046bd0950e5a01a1eb, type: 2}
+  - snow: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
