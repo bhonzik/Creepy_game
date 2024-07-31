@@ -7675,6 +7675,7 @@ GameObject:
   - component: {fileID: 1097193610}
   - component: {fileID: 1097193611}
   - component: {fileID: 1097193612}
+  - component: {fileID: 1097193613}
   m_Layer: 0
   m_Name: Cylinder
   m_TagString: Untagged
@@ -7714,7 +7715,7 @@ Camera:
     width: 1
     height: 1
   near clip plane: 0.3
-  far clip plane: 10000
+  far clip plane: 5000
   field of view: 45
   orthographic: 0
   orthographic size: 5
@@ -7815,7 +7816,7 @@ Transform:
   m_GameObject: {fileID: 1097193600}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 7193, y: 67.607, z: -17343}
+  m_LocalPosition: {x: 5816, y: 350, z: -13125}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -7867,7 +7868,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PlayerBody: {fileID: 1097193606}
   PlayerCamera: {fileID: 1097193605}
-  Speed: 20
+  Speed: 8
   Sensitivity: 2
   Jumpforce: 50
   maxPitchAngle: 80
@@ -7886,7 +7887,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1097193600}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4af49707f8deca448a6b0a8070e29181, type: 3}
   m_Name: 
@@ -7933,6 +7934,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dayskybox: {fileID: 2100000, guid: 4c12da8dc5dced74e838120da11725a0, type: 2}
   directionalLight: {fileID: 1899204967}
+--- !u!114 &1097193613
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1097193600}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d919189caae594a4db32e4e403161473, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dayskybox: {fileID: 2100000, guid: 4c12da8dc5dced74e838120da11725a0, type: 2}
+  morningskybox: {fileID: 2100000, guid: 77874dbfcee9b034fb544786292018c3, type: 2}
+  nightskybox: {fileID: 2100000, guid: 737024f24a4498b4ea58a67c1667a3db, type: 2}
+  rainyskybox: {fileID: 2100000, guid: 5489b58387d36b046bd0950e5a01a1eb, type: 2}
+  directionalLight: {fileID: 1899204967}
+  snow: {fileID: 390492850}
 --- !u!1 &1156926762
 GameObject:
   m_ObjectHideFlags: 0
